@@ -2,38 +2,38 @@
   "header": [
     {
       "id": 1,
+      "to": "/",
       "link_name": "Home"
     },
     {
       "id": 2,
+      "to": "/about",
       "link_name": "About"
     },
     {
       "id": 3,
+      "to": "/blog",
       "link_name": "Blog"
     },
     {
       "id": 4,
+      "to": "/contact",
       "link_name": "Contact"
-    },
-    {
-      "id": 5,
-      "link_name": "Get a quote"
     }
   ],
   "mainBanner": {
-    "banner-img": "/assets/img/homepage/banner/banner-img.png",
-    "banner_title": "We provide effective contracting services",
-    "banner-text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit dolor sit varius rhoncus, nullam pulvinar ut sollicitudin dictumst porttitor porttitor quis quisque erat.",
-    "banner_btn1": "Get a quote",
-    "banner_btn2": "Our services"
+    "bannerImg": "/assets/img/homepage/banner/banner-img.png",
+    "bannerTitle": "We provide effective contracting services",
+    "bannerText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit dolor sit varius rhoncus, nullam pulvinar ut sollicitudin dictumst porttitor porttitor quis quisque erat.",
+    "bannerBtn1": "Get a quote",
+    "bannerBtn2": "Our services"
   },
   "mainAbout": {
-    "about-img": "/assets/img/homepage/banner/banner-img.png",
-    "about_title-up": "/About Us",
-    "about_title-bottom": "A team of reliable and experienced contractors",
-    "about-text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit tristique imperdiet nisi metus, viverra nulla aliquet dui porta porttitor neque lectus diam justo lobortis purus in elit, elementum dignissim nullam vitae pellentesque aliquet aliquam sagittis pulvinar egestas morbi suspendisse eleifend.",
-    "about_btn": "About our company"
+    "aboutImg": "/assets/img/homepage/banner/banner-img.png",
+    "aboutTitle-up": "/About Us",
+    "aboutTitle-bottom": "A team of reliable and experienced contractors",
+    "aboutText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit tristique imperdiet nisi metus, viverra nulla aliquet dui porta porttitor neque lectus diam justo lobortis purus in elit, elementum dignissim nullam vitae pellentesque aliquet aliquam sagittis pulvinar egestas morbi suspendisse eleifend.",
+    "aboutBtn": "About our company"
   },
   "mainServices": {
     "services_title-up": "/Our Services",
