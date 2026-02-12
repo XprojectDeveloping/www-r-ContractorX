@@ -1,0 +1,54 @@
+{
+  "header": [
+    {
+      "id": 1,
+      "link_name": "Home"
+    },
+    {
+      "id": 2,
+      "link_name": "About"
+    },
+    {
+      "id": 3,
+      "link_name": "Blog"
+    },
+    {
+      "id": 4,
+      "link_name": "Contact"
+    },
+    {
+      "id": 5,
+      "link_name": "Get a quote"
+    }
+  ],
+  "mainBanner": {
+    "banner-img": "/assets/img/homepage/banner/banner-img.png",
+    "banner_title": "We provide effective contracting services",
+    "banner-text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit dolor sit varius rhoncus, nullam pulvinar ut sollicitudin dictumst porttitor porttitor quis quisque erat.",
+    "banner_btn1": "Get a quote",
+    "banner_btn2": "Our services"
+  },
+  "mainAbout": {
+    "about-img": "/assets/img/homepage/banner/banner-img.png",
+    "about_title1": "/About Us",
+    "about_title2": "A team of reliable and experienced contractors",
+    "about-text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit tristique imperdiet nisi metus, viverra nulla aliquet dui porta porttitor neque lectus diam justo lobortis purus in elit, elementum dignissim nullam vitae pellentesque aliquet aliquam sagittis pulvinar egestas morbi suspendisse eleifend.",
+    "about_btn": "About our company"
+  },
+  "mainServices": {
+    "services_title1": "/Our Services",
+    "services_title2": "A comprehensive set of services",
+    "services_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit tristique imperdiet nisi metus, viverra nulla aliquet dui porta porttitor neque lectus diam justo lobortis purus in elit, elementum dignissim nullam vitae pellentesque aliquet aliquam sagittis pulvinar egestas morbi suspendisse eleifend.",
+    "services_btn1": "Get a quote",
+    "services_btn2": "Browse services",
+    "services-cards": [
+      {
+        "id": 1,
+        "card-img": "/assets/img/services/card-img1.svg",
+        "card-title": "Project Planning",
+        "card-text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit quis eget morbi fermentum sagittis, et mi lacus ornare tincidunt id.",
+        "card-link": "Learn more"
+      }
+    ]
+  }
+}
