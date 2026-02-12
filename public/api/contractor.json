@@ -30,14 +30,14 @@
   },
   "mainAbout": {
     "about-img": "/assets/img/homepage/banner/banner-img.png",
-    "about_title1": "/About Us",
-    "about_title2": "A team of reliable and experienced contractors",
+    "about_title-up": "/About Us",
+    "about_title-bottom": "A team of reliable and experienced contractors",
     "about-text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit tristique imperdiet nisi metus, viverra nulla aliquet dui porta porttitor neque lectus diam justo lobortis purus in elit, elementum dignissim nullam vitae pellentesque aliquet aliquam sagittis pulvinar egestas morbi suspendisse eleifend.",
     "about_btn": "About our company"
   },
   "mainServices": {
-    "services_title1": "/Our Services",
-    "services_title2": "A comprehensive set of services",
+    "services_title-up": "/Our Services",
+    "services_title-bottom": "A comprehensive set of services",
     "services_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit tristique imperdiet nisi metus, viverra nulla aliquet dui porta porttitor neque lectus diam justo lobortis purus in elit, elementum dignissim nullam vitae pellentesque aliquet aliquam sagittis pulvinar egestas morbi suspendisse eleifend.",
     "services_btn1": "Get a quote",
     "services_btn2": "Browse services",
@@ -48,6 +48,206 @@
         "card-title": "Project Planning",
         "card-text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit quis eget morbi fermentum sagittis, et mi lacus ornare tincidunt id.",
         "card-link": "Learn more"
+      },
+      {
+        "id": 2,
+        "card-img": "/assets/img/services/card-img2.svg",
+        "card-title": "Project Management",
+        "card-text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit quis eget morbi fermentum sagittis, et mi lacus ornare tincidunt id.",
+        "card-link": "Learn more"
+      },
+      {
+        "id": 3,
+        "card-img": "/assets/img/services/card-img3.svg",
+        "card-title": "General Contracting",
+        "card-text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit quis eget morbi fermentum sagittis, et mi lacus ornare tincidunt id.",
+        "card-link": "Learn more"
+      },
+      {
+        "id": 4,
+        "card-img": "/assets/img/services/card-img4.svg",
+        "card-title": "Interior Design",
+        "card-text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit quis eget morbi fermentum sagittis, et mi lacus ornare tincidunt id.",
+        "card-link": "Learn more"
+      },
+      {
+        "id": 5,
+        "card-img": "/assets/img/services/card-img5.svg",
+        "card-title": "Exterior Design",
+        "card-text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit quis eget morbi fermentum sagittis, et mi lacus ornare tincidunt id.",
+        "card-link": "Learn more"
+      },
+      {
+        "id": 6,
+        "card-img": "/assets/img/services/card-img6.svg",
+        "card-title": "Space Planning",
+        "card-text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit quis eget morbi fermentum sagittis, et mi lacus ornare tincidunt id.",
+        "card-link": "Learn more"
+      }
+    ]
+  },
+  "mainCover": {
+    "cover-img": "/assets/img/homepage/cover/cover-img.png",
+    "cover-title": "Ready to pull the trigger? Get a quote today.",
+    "cover-text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit dolor sit varius rhoncus, nullam pulvinar ut sollicitudin dictumst porttitor porttitor quis.",
+    "cover-btn": "Get a quote",
+    "cover-link": "Our services"
+  },
+  "mainChoice": {
+    "choice-title-up": "/Why Choose Us",
+    "choice-title-bottom1": "An exceptional quality that can't be beaten",
+    "choice-text1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit tristique rutrum leo quam consectetur urna egestas tincidunt facilisi neque elementum quis lorem posuere dignissim scelerisque aliquam.",
+    "choice-list1": [
+      {
+        "id": 1,
+        "text": "Over 15 years of experience",
+        "ico": "/assets/img/homepage/choice/choice-mark.svg"
+      },
+      {
+        "id": 2,
+        "text": "200+ successfully executed projects",
+        "ico": "/assets/img/homepage/choice/choice-mark.svg"
+      },
+      {
+        "id": 3,
+        "text": "Exceptional work quality",
+        "ico": "/assets/img/homepage/choice/choice-mark.svg"
+      }
+    ],
+    "choice-title-bottom2": "We help you build on your past and prepare for the future",
+    "choice-text2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit dictum nam arcu ac eu orci purus amet eros, id lorem aliquet eget urna at risus sit purus ac magnis blandit eu egestas imperdiet libero."
+  },
+  "mainProjects": {
+    "projects-title-up": "/Past Projects",
+    "projects-title-bottom": "Our project results speak for themselves",
+    "projects-btn1": "Get a quote",
+    "projects-btn2": "Browse services",
+    "projects-cards": [
+      {
+        "id": 1,
+        "card-img": "/assets/img/projects/card-img1.png",
+        "card-title": "Building construction in Los Angeles, CA",
+        "card-text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit lectus aenean sit elementum pellentesque ultrices sem.",
+        "card-ico": "/assets/img/projects/card-ico.svg",
+        "card-bottom-title": "Construction"
+      },
+      {
+        "id": 2,
+        "card-img": "/assets/img/projects/card-img2.png",
+        "card-title": "Kitchen remodeling in Hollywood Hills, CA",
+        "card-text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit lectus aenean sit elementum pellentesque ultrices sem.",
+        "card-ico": "/assets/img/projects/card-ico.svg",
+        "card-bottom-title": "Remodeling"
+      },
+      {
+        "id": 3,
+        "card-img": "/assets/img/projects/card-img3.png",
+        "card-title": "Office remodeling in Hollywood Hills, CA",
+        "card-text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit lectus aenean sit elementum pellentesque ultrices sem.",
+        "card-ico": "/assets/img/projects/card-ico.svg",
+        "card-bottom-title": "Remodeling"
+      }
+    ]
+  },
+  "mainReviews": {
+    "reviews-title-up": "/Testimonials",
+    "reviews-title-bottom": "What our clients say about us and our work",
+    "reviews-cards": [
+      {
+        "id": 1,
+        "card-img": "/assets/img/homepage/reviews/card-img1.png",
+        "card-title": "“A true team of expert contractors”",
+        "card-text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Convallis senectus non dui vel tortor. Justo lectus integer arcu elit.",
+        "card-name": "John Carter",
+        "card-position": "Malibu beach, CA  "
+      },
+      {
+        "id": 2,
+        "card-img": "/assets/img/homepage/reviews/card-img2.png",
+        "card-title": "“A team that never undelivers”",
+        "card-text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit tristique imperdiet nisi metus, viverra nulla aliquet dui porta porttitor neque lectus diam justo lobortis purus in elit.",
+        "card-name": "Lily Woods",
+        "card-position": "HollyWOODS hILLS, ca"
+      },
+      {
+        "id": 3,
+        "card-img": "/assets/img/homepage/reviews/card-img1.png",
+        "card-title": "“A true team of expert contractors”",
+        "card-text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Convallis senectus non dui vel tortor. Justo lectus integer arcu elit.",
+        "card-name": "John Carter",
+        "card-position": "Malibu beach, CA  "
+      },
+      {
+        "id": 4,
+        "card-img": "/assets/img/homepage/reviews/card-img2.png",
+        "card-title": "“A team that never undelivers”",
+        "card-text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit tristique imperdiet nisi metus, viverra nulla aliquet dui porta porttitor neque lectus diam justo lobortis purus in elit.",
+        "card-name": "Lily Woods",
+        "card-position": "HollyWOODS hILLS, ca"
+      }
+    ]
+  },
+  "mainBlog": {
+    "blog-title-up": "/Blog",
+    "blog-title-bottom": "Articles & News",
+    "blog-btn": "Browse articles",
+    "blog-img": "/assets/img/blog/blog-img.png",
+    "blog-text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Convallis senectus non dui vel tortor. Justo lectus integer arcu elit.",
+    "bloq-cards": [
+      {
+        "id": 1,
+        "card-img": "/assets/img/blog/card-img1.png",
+        "card-title": "Paint trends 2022 - the 17 colors you need for the ultimate wonder walls"
+      },
+      {
+        "id": 2,
+        "card-img": "/assets/img/blog/card-img2.png",
+        "card-title": "Clever DIY home improvements you can do during the pandemic"
+      },
+      {
+        "id": 3,
+        "card-img": "/assets/img/blog/card-img3.png",
+        "card-title": "15 mind blowing floor designs to make your home look great"
+      }
+    ]
+  },
+  "footer": {
+    "footer-up-menu": "Menu",
+    "footer-up-menu-links": [
+      {
+        "id": 1,
+        "link_name": "Home"
+      },
+      {
+        "id": 2,
+        "link_name": "About"
+      },
+      {
+        "id": 3,
+        "link_name": "Blog"
+      },
+      {
+        "id": 4,
+        "link_name": "Contact"
+      },
+      {
+        "id": 5,
+        "link_name": "Services"
+      }
+    ],
+    "footer-up-contact-title": "Contact us",
+    "footer-up-contact-info": [
+      {
+        "id": 1,
+        "contact-img": "/assets/img/footer/contact-phone.svg",
+        "contact-title": "Call us",
+        "contact_info": "(323) 238-0682"
+      },
+      {
+        "id": 2,
+        "contact-img": "/assets/img/footer/contact-email.svg",
+        "contact-title": "Email us",
+        "contact_info": "info@contractor.com"
       }
     ]
   }
