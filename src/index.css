@@ -48,11 +48,11 @@ h6 {
   font-weight: inherit;
 }
 
-img {
+/* img {
   max-width: 100%;
   height: auto;
   display: block;
-}
+} */
 
 svg {
   display: block;
@@ -93,7 +93,6 @@ button {
   cursor: pointer;
 }
 
-
 ::-webkit-scrollbar {
   width: 10px;
 }
@@ -111,4 +110,9 @@ button {
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #ff4d01;
+}
+
+.max-width-container {
+  max-width: 1108px;
+  margin: 0 auto;
 }

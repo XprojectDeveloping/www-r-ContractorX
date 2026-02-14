@@ -9,8 +9,12 @@ function HomeBanner({ title, text, buttonText1, buttonText2 }) {
           <h1>{title}</h1>
           <p>{text}</p>
           <div className="banner-buttons">
-            <Link className="one">{buttonText1}</Link>
-            <Link className="two">{buttonText2}</Link>
+            <button>
+              <Link className="one">{buttonText1}</Link>
+            </button>
+            <button>
+              <Link className="two">{buttonText2}</Link>
+            </button>
           </div>
         </div>
       </div>

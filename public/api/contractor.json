@@ -29,9 +29,9 @@
     "bannerBtn2": "Our services"
   },
   "mainAbout": {
-    "aboutImg": "/assets/img/homepage/banner/banner-img.png",
-    "aboutTitle-up": "/About Us",
-    "aboutTitle-bottom": "A team of reliable and experienced contractors",
+    "aboutImg": "/assets/img/homepage/about/about-img.png",
+    "aboutTitleUp": "/About Us",
+    "aboutTitleBottom": "A team of reliable and experienced contractors",
     "aboutText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit tristique imperdiet nisi metus, viverra nulla aliquet dui porta porttitor neque lectus diam justo lobortis purus in elit, elementum dignissim nullam vitae pellentesque aliquet aliquam sagittis pulvinar egestas morbi suspendisse eleifend.",
     "aboutBtn": "About our company"
   },

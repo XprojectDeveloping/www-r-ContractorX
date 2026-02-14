@@ -44,34 +44,36 @@ main {
         color: #ffffff;
       }
       .banner-buttons {
-        margin-top: 3.5rem;
+        margin-top: 4.5rem;
         display: flex;
         align-items: center;
         gap: 2.8rem;
 
-        a {
-          font-size: 1.8rem;
-          font-weight: 400;
-          color: #ffffff;
+        button {
+          a {
+            font-size: 1.8rem;
+            font-weight: 400;
+            color: #ffffff;
 
-          &.one {
-            background-color: #ff4d01;
-            padding: 1.5rem 3.8rem;
-            transition: 0.3s linear;
-
-            &:hover {
-              background-color: #343434;
-            }
-          }
-
-          &.two {
-            border: 1px solid #ffffff;
-            padding: 1.5rem 3.8rem;
-            transition: 0.3s linear;
-
-            &:hover {
+            &.one {
               background-color: #ff4d01;
-              color: #343434;
+              padding: 1.5rem 3.8rem;
+              transition: 0.3s linear;
+
+              &:hover {
+                background-color: #343434;
+              }
+            }
+
+            &.two {
+              border: 1px solid #ffffff;
+              padding: 1.5rem 3.8rem;
+              transition: 0.3s linear;
+
+              &:hover {
+                background-color: #ff4d01;
+                color: #343434;
+              }
             }
           }
         }

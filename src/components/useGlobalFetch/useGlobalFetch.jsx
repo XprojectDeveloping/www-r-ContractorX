@@ -10,7 +10,7 @@ function useGlobalFetch() {
     setError(null);
 
     fetch("/api/contractor.json")
-      .then((res) => {  
+      .then((res) => {
         if (!res.ok) {
           throw new Error(`HTTP ${res.status}`);
         }
