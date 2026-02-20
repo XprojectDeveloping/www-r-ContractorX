@@ -8,11 +8,28 @@ header {
   margin: 0 auto;
   padding-right: 20rem;
 
+  &.header-scroll {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 2000;
+    background-color: gray;
+    max-width: inherit;
+    width: 100%;
+    padding-right: 0;
+  }
+
   .header-block {
     display: flex;
     padding-top: 3.2rem;
     gap: 3.2rem;
-    
+    transition: 0.3s linear;
+
+    &.header-scroll-block {
+      padding: 2rem 2rem;
+      justify-content: flex-end;
+    }
+
     a {
       font-weight: 400;
       font-size: 1.8rem;
