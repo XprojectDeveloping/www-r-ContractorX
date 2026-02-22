@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-
+import "../../styles/homepage/_homepage_banner.scss";
 function HomeBanner({ title, text, buttonText1, buttonText2 }) {
   return (
     <>

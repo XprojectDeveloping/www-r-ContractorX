@@ -93,35 +93,44 @@
     ]
   },
   "mainCover": {
-    "cover-img": "/assets/img/homepage/cover/cover-img.png",
-    "cover-title": "Ready to pull the trigger? Get a quote today.",
-    "cover-text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit dolor sit varius rhoncus, nullam pulvinar ut sollicitudin dictumst porttitor porttitor quis.",
-    "cover-btn": "Get a quote",
-    "cover-link": "Our services"
+    "coverImg": "/assets/img/homepage/cover/cover-img.png",
+    "coverAlt": "cover",
+    "coverTitle1": "Ready to pull the trigger?",
+    "coverTitle2": "Get a quote today.",
+    "coverText1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit dolor sit",
+    "coverText2": "varius rhoncus, nullam pulvinar ut sollicitudin dictumst porttitor porttitor quis.",
+    "coverBtn1": "Get a quote",
+    "coverBtn2": "Our services"
   },
   "mainChoice": {
-    "choice-title-up": "/Why Choose Us",
-    "choice-title-bottom1": "An exceptional quality that can't be beaten",
-    "choice-text1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit tristique rutrum leo quam consectetur urna egestas tincidunt facilisi neque elementum quis lorem posuere dignissim scelerisque aliquam.",
-    "choice-list1": [
+    "choiceTitleUp": "/Why Choose Us",
+    "choiceTitleBottom1": "An exceptional quality that can't be beaten",
+    "choiceText1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit tristique rutrum leo quam consectetur urna egestas tincidunt facilisi neque elementum quis lorem posuere dignissim scelerisque aliquam.",
+    "choiceImg1": "/assets/img/homepage/choice/choice-img.png",
+    "choiceAlt": "choice",
+    "choiceList1": [
       {
         "id": 1,
         "text": "Over 15 years of experience",
-        "ico": "/assets/img/homepage/choice/choice-mark.svg"
+        "ico": "/assets/img/homepage/choice/choice-mark.svg",
+        "alt": "mark"
       },
       {
         "id": 2,
         "text": "200+ successfully executed projects",
-        "ico": "/assets/img/homepage/choice/choice-mark.svg"
+        "ico": "/assets/img/homepage/choice/choice-mark.svg",
+        "alt": "mark"
       },
       {
         "id": 3,
         "text": "Exceptional work quality",
-        "ico": "/assets/img/homepage/choice/choice-mark.svg"
+        "ico": "/assets/img/homepage/choice/choice-mark.svg",
+        "alt": "mark"
       }
     ],
-    "choice-title-bottom2": "We help you build on your past and prepare for the future",
-    "choice-text2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit dictum nam arcu ac eu orci purus amet eros, id lorem aliquet eget urna at risus sit purus ac magnis blandit eu egestas imperdiet libero."
+    "choiceTitleBottom2": "We help you build on your past and prepare for the future",
+    "choiceText2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit dictum nam arcu ac eu orci purus amet eros, id lorem aliquet eget urna at risus sit purus ac magnis blandit eu egestas imperdiet libero.",
+    "choiceImg2": "/assets/img/homepage/choice/choice-img2.png"
   },
   "mainProjects": {
     "projects-title-up": "/Past Projects",

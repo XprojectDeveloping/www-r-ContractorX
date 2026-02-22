@@ -35,6 +35,10 @@ header {
       font-size: 1.8rem;
       color: #ffffff;
       transition: 0.3s linear;
+     
+      &.active{
+        color: #ff4d01;
+      }
 
       &:hover {
         color: #ff4d01;

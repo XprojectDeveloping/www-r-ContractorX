@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-
+import "../../styles/homepage/_homepage_about.scss";
 function HomeAbout({ img, title1, title2, text, buttonText }) {
   return (
     <>
@@ -16,21 +16,23 @@ function HomeAbout({ img, title1, title2, text, buttonText }) {
           <div className="home-about-num">
             <div className="num">
               <p className="top">
-                <span>+</span>350
+                <span>{"+"}</span>
+                {"350"}
               </p>
-              <span className="up">Executed Projects</span>
+              <span className="up">{"Executed Projects"}</span>
             </div>
             <div className="num">
               <p className="top">
-                12 <span>Y</span>
+                {"12"} <span>{"Y"}</span>
               </p>
-              <span className="up">Experience</span>
+              <span className="up">{"Experience"}</span>
             </div>
             <div className="num">
               <p className="top">
-                <span>+</span>400
+                <span>{"+"}</span>
+                {"400"}
               </p>
-              <span className="up">Satisfied Clients</span>
+              <span className="up">{"Satisfied Clients"}</span>
             </div>
           </div>
 

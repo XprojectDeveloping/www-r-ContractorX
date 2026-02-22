@@ -1,6 +1,8 @@
 import MaxWidth from "../components/MaxWidth/MaxWidth";
 import HomeAbout from "../components/sections/HomeAbout";
 import HomeBanner from "../components/sections/HomeBanner";
+import HomeChoice from "../components/sections/HomeChoice";
+import HomeCover from "../components/sections/HomeCover";
 import HomeServices from "../components/sections/HomeServices";
 import useGlobalFetch from "../components/useGlobalFetch/useGlobalFetch";
 
@@ -39,6 +41,34 @@ function HomePage(params) {
             btnText1={data?.mainServices?.servicesBtn1}
             btnText2={data?.mainServices?.servicesBtn2}
             dataCard={data?.mainServices?.servicesCards}
+          />
+        </MaxWidth>
+      </section>
+      <section>
+        <HomeCover
+          bgImg={data?.mainCover?.coverImg}
+          title1={data?.mainCover?.coverTitle1}
+          title2={data?.mainCover?.coverTitle2}
+          text1={data?.mainCover?.coverText1}
+          text2={data?.mainCover?.coverText2}
+          btnText1={data?.mainCover?.coverBtn1}
+          btnText2={data?.mainCover?.coverBtn2}
+        ></HomeCover>
+      </section>
+
+      <section>
+        <MaxWidth>
+          <HomeChoice
+            imgLeft={data?.mainChoice?.choiceImg1}
+            altLeft={data?.mainChoice?.choiceAlt}
+            title={data?.mainChoice?.choiceTitleUp}
+            title2Left={data?.mainChoice?.choiceTitleBottom1}
+            textLeft={data?.mainChoice?.choiceText1}
+            markData={data?.mainChoice?.choiceList1}
+            imgRigth={data?.mainChoice?.choiceImg2}
+            altRigth={data?.mainChoice?.choiceAlt}
+            title2Rigth={data?.mainChoice?.choiceTitleBottom2}
+            textRigth={data?.mainChoice?.choiceText2}
           />
         </MaxWidth>
       </section>

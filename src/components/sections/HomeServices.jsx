@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-
+import "../../styles/homepage/_homepage_services.scss";
 function HomeServices({ title, title2, btnText1, btnText2, dataCard }) {
   return (
     <>
