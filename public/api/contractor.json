@@ -36,53 +36,59 @@
     "aboutBtn": "About our company"
   },
   "mainServices": {
-    "services_title-up": "/Our Services",
-    "services_title-bottom": "A comprehensive set of services",
-    "services_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit tristique imperdiet nisi metus, viverra nulla aliquet dui porta porttitor neque lectus diam justo lobortis purus in elit, elementum dignissim nullam vitae pellentesque aliquet aliquam sagittis pulvinar egestas morbi suspendisse eleifend.",
-    "services_btn1": "Get a quote",
-    "services_btn2": "Browse services",
-    "services-cards": [
+    "servicesTitleUp": "/Our Services",
+    "servicesTitleBottom": "A comprehensive set of services",
+    "servicesText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit tristique imperdiet nisi metus, viverra nulla aliquet dui porta porttitor neque lectus diam justo lobortis purus in elit, elementum dignissim nullam vitae pellentesque aliquet aliquam sagittis pulvinar egestas morbi suspendisse eleifend.",
+    "servicesBtn1": "Get a quote",
+    "servicesBtn2": "Browse services",
+    "servicesCards": [
       {
         "id": 1,
-        "card-img": "/assets/img/services/card-img1.svg",
-        "card-title": "Project Planning",
-        "card-text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit quis eget morbi fermentum sagittis, et mi lacus ornare tincidunt id.",
-        "card-link": "Learn more"
+        "cardImg": "/assets/img/services/card-img1.svg",
+        "cardAlt": "service",
+        "cardTitle": "Project Planning",
+        "cardText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit quis eget morbi fermentum sagittis, et mi lacus ornare tincidunt id.",
+        "cardLink": "Learn more"
       },
       {
         "id": 2,
-        "card-img": "/assets/img/services/card-img2.svg",
-        "card-title": "Project Management",
-        "card-text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit quis eget morbi fermentum sagittis, et mi lacus ornare tincidunt id.",
-        "card-link": "Learn more"
+        "cardImg": "/assets/img/services/card-img2.svg",
+        "cardAlt": "service",
+        "cardTitle": "Project Management",
+        "cardText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit quis eget morbi fermentum sagittis, et mi lacus ornare tincidunt id.",
+        "cardLink": "Learn more"
       },
       {
         "id": 3,
-        "card-img": "/assets/img/services/card-img3.svg",
-        "card-title": "General Contracting",
-        "card-text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit quis eget morbi fermentum sagittis, et mi lacus ornare tincidunt id.",
-        "card-link": "Learn more"
+        "cardImg": "/assets/img/services/card-img3.svg",
+        "cardAlt": "service",
+        "cardTitle": "General Contracting",
+        "cardText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit quis eget morbi fermentum sagittis, et mi lacus ornare tincidunt id.",
+        "cardLink": "Learn more"
       },
       {
         "id": 4,
-        "card-img": "/assets/img/services/card-img4.svg",
-        "card-title": "Interior Design",
-        "card-text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit quis eget morbi fermentum sagittis, et mi lacus ornare tincidunt id.",
-        "card-link": "Learn more"
+        "cardImg": "/assets/img/services/card-img4.svg",
+        "cardAlt": "service",
+        "cardTitle": "Interior Design",
+        "cardText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit quis eget morbi fermentum sagittis, et mi lacus ornare tincidunt id.",
+        "cardLink": "Learn more"
       },
       {
         "id": 5,
-        "card-img": "/assets/img/services/card-img5.svg",
-        "card-title": "Exterior Design",
-        "card-text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit quis eget morbi fermentum sagittis, et mi lacus ornare tincidunt id.",
-        "card-link": "Learn more"
+        "cardImg": "/assets/img/services/card-img5.svg",
+        "cardAlt": "service",
+        "cardTitle": "Exterior Design",
+        "cardText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit quis eget morbi fermentum sagittis, et mi lacus ornare tincidunt id.",
+        "cardLink": "Learn more"
       },
       {
         "id": 6,
-        "card-img": "/assets/img/services/card-img6.svg",
-        "card-title": "Space Planning",
-        "card-text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit quis eget morbi fermentum sagittis, et mi lacus ornare tincidunt id.",
-        "card-link": "Learn more"
+        "cardImg": "/assets/img/services/card-img6.svg",
+        "cardAlt": "service",
+        "cardTitle": "Space Planning",
+        "cardText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit quis eget morbi fermentum sagittis, et mi lacus ornare tincidunt id.",
+        "cardLink": "Learn more"
       }
     ]
   },

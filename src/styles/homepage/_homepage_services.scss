@@ -1,0 +1,102 @@
+main {
+  .services {
+    margin-top: 29.9rem;
+    margin-bottom: 6.4rem;
+    p {
+      font-weight: 400;
+      font-size: 2rem;
+      color: #ff4d01;
+      text-transform: uppercase;
+      margin-bottom: 1.5rem;
+    }
+    .services-title {
+      margin-bottom: 6.4rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      h3 {
+        font-size: 5.4rem;
+        font-weight: 400;
+        color: #191919;
+        width: 46rem;
+      }
+
+      .services-buttons {
+        display: flex;
+        gap: 2.8rem;
+        button {
+          a {
+            font-size: 1.8rem;
+            font-weight: 400;
+            color: #ffffff;
+
+            &.one {
+              background-color: #ff4d01;
+              padding: 1.5rem 3.8rem;
+              transition: 0.3s linear;
+
+              &:hover {
+                background-color: #343434;
+              }
+            }
+
+            &.two {
+              border: 1px solid #191919;
+              color: #191919;
+              padding: 1.5rem 3.8rem;
+              transition: 0.3s linear;
+
+              &:hover {
+                background-color: #ff4d01;
+                color: #ffffff;
+              }
+            }
+          }
+        }
+      }
+    }
+    .services-cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 5.7rem;
+
+      .services-card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        .card-img {
+          margin-bottom: 3.2rem;
+        }
+        h3 {
+          font-weight: 400;
+          font-size: 3.4rem;
+          color: #191919;
+          margin-bottom: 1.4rem;
+        }
+        p {
+          font-weight: 400;
+          font-size: 1.8rem;
+          color: #605e5d;
+          text-transform: lowercase;
+          margin-bottom: 1.3rem;
+        }
+
+        a {
+          font-size: 1.8rem;
+          font-weight: 400;
+          color: #191919;
+          margin-top: 1.3rem;
+
+          &::before {
+            content: "";
+            color: #191919;
+            border: 1px solid #191919;
+            background-color: #191919;
+            padding: 0.7rem 1.8rem;
+            margin-right: 1rem;
+          }
+        }
+      }
+    }
+  }
+}

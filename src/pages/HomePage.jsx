@@ -1,6 +1,7 @@
 import MaxWidth from "../components/MaxWidth/MaxWidth";
 import HomeAbout from "../components/sections/HomeAbout";
 import HomeBanner from "../components/sections/HomeBanner";
+import HomeServices from "../components/sections/HomeServices";
 import useGlobalFetch from "../components/useGlobalFetch/useGlobalFetch";
 
 function HomePage(params) {
@@ -28,6 +29,17 @@ function HomePage(params) {
               buttonText={data?.mainAbout?.aboutBtn}
             />
           )}
+        </MaxWidth>
+      </section>
+      <section>
+        <MaxWidth>
+          <HomeServices
+            title={data?.mainServices?.servicesTitleUp}
+            title2={data?.mainServices?.servicesTitleBottom}
+            btnText1={data?.mainServices?.servicesBtn1}
+            btnText2={data?.mainServices?.servicesBtn2}
+            dataCard={data?.mainServices?.servicesCards}
+          />
         </MaxWidth>
       </section>
     </main>
