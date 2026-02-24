@@ -1,6 +1,7 @@
 main {
   .banner {
     position: relative;
+    margin-bottom: 10rem;
     .banner-img {
       background-image: url("/assets/img/homepage/banner/banner-img.png");
       background-repeat: no-repeat;
@@ -35,46 +36,45 @@ main {
       h1 {
         font-size: 7.2rem;
         font-weight: 400;
+        margin-bottom: 2rem;
         color: #ffffff;
       }
       p {
-        margin-top: 2rem;
         font-size: 1.8rem;
         font-weight: 400;
         color: #ffffff;
+        margin-bottom: 4.5rem;
       }
       .banner-buttons {
-        margin-top: 4.5rem;
         display: flex;
         align-items: center;
         gap: 2.8rem;
 
-        button {
-          a {
-            font-size: 1.8rem;
-            font-weight: 400;
-            color: #ffffff;
+        a {
+          font-size: 1.8rem;
+          font-weight: 400;
+          color: #ffffff;
 
-            &.one {
-              background-color: #ff4d01;
-              padding: 1.5rem 3.8rem;
-              transition: 0.3s linear;
+          &.one {
+            background-color: #ff4d01;
+            padding: 1.5rem 3.8rem;
+            transition: 0.3s linear;
 
-              &:hover {
-                background-color: #343434;
-              }
+            &:hover {
+              background-color: #343434;
             }
+          }
 
-            &.two {
-              border: 1px solid #ffffff;  
+          &.two {
+            border: 1px solid #ffffff;
+            color: #ffffff;
+            padding: 1.5rem 3.8rem;
+            transition: 0.3s linear;
+
+            &:hover {
+              background-color: #ff4d01;
               color: #ffffff;
-              padding: 1.5rem 3.8rem;
-              transition: 0.3s linear;
-
-              &:hover {
-                background-color: #ff4d01;
-                color: #ffffff;
-              }
+              border: none;
             }
           }
         }

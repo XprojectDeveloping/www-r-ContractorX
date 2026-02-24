@@ -1,12 +1,14 @@
 main {
   .choice {
-    margin-top: 10rem;
-    margin-bottom: 20rem;
+    margin-bottom: 10rem;
 
     .choice-container {
       display: flex;
       gap: 8.2rem;
-      margin-bottom: 10rem;
+
+      &:first-child{
+        margin-bottom: 10rem;
+      }
 
       .choice-title {
         margin-top: 4rem;

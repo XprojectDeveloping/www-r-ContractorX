@@ -1,7 +1,7 @@
 main {
   .cover {
-    margin-top: 10rem;
     position: relative;
+    margin-bottom: 10rem;
     .cover-img-container {
       .cover-img {
         width: 100%;
@@ -31,32 +31,31 @@ main {
         gap: 2.8rem;
         margin-top: 3.5rem;
 
-        button {
-          a {
-            font-size: 1.8rem;
-            font-weight: 400;
-            color: #ffffff;
+        a {
+          font-size: 1.8rem;
+          font-weight: 400;
+          color: #ffffff;
 
-            &.one {
-              background-color: #ff4d01;
-              padding: 1.5rem 3.8rem;
-              transition: 0.3s linear;
+          &.one {
+            background-color: #ff4d01;
+            padding: 1.5rem 3.8rem;
+            transition: 0.3s linear;
 
-              &:hover {
-                background-color: #343434;
-              }
+            &:hover {
+              background-color: #343434;
             }
+          }
 
-            &.two {
-              border: 1px solid #191919;
-              color: #191919;
-              padding: 1.5rem 3.8rem;
-              transition: 0.3s linear;
+          &.two {
+            border: 1px solid #191919;
+            color: #191919;
+            padding: 1.5rem 3.8rem;
+            transition: 0.3s linear;
 
-              &:hover {
-                background-color: #ff4d01;
-                color: #ffffff;
-              }
+            &:hover {
+              background-color: #ff4d01;
+              color: #ffffff;
+              border: none;
             }
           }
         }

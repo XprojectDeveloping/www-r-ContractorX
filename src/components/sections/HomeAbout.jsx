@@ -1,21 +1,21 @@
 import { Link } from "react-router-dom";
 import "../../styles/homepage/_homepage_about.scss";
-function HomeAbout({ img, title1, title2, text, buttonText }) {
+function HomeAbout({ img, title1, title2, text, buttonText, btnTo }) {
   return (
     <>
-      <div className="home-about">
-        <div className="home-about-img">
+      <div className="about">
+        <div className="about-img">
           <img src={img} alt="construct" />
         </div>
-        <div className="home-about-text">
+        <div className="about-text">
           <span>{title1}</span>
 
-          <div className="home-about-title">
+          <div className="about-title">
             <h3>{title2}</h3>
             <p>{text}</p>
           </div>
 
-          <div className="home-about-num">
+          <div className="about-num">
             <div className="num">
               <p className="top">
                 <span>{"+"}</span>
@@ -38,9 +38,7 @@ function HomeAbout({ img, title1, title2, text, buttonText }) {
             </div>
           </div>
 
-          <button>
-            <Link>{buttonText}</Link>
-          </button>
+          <Link to={btnTo || ""}>{buttonText}</Link>
         </div>
       </div>
     </>

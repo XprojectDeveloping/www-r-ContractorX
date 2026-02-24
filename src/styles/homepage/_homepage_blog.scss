@@ -13,6 +13,7 @@ main {
     .blog-title {
       display: flex;
       justify-content: space-between;
+      align-items: center;
       margin-bottom: 6.4rem;
       h3 {
         font-size: 5.4rem;
@@ -20,22 +21,23 @@ main {
         color: #191919;
         width: 46rem;
       }
-      button {
-        a {
-          font-size: 1.8rem;
-          font-weight: 400;
-          color: #191919;
-          border: 1px solid #191919;
 
-          &.one {
-            background-color: #ffffff;
-            padding: 1.5rem 3.8rem;
-            transition: 0.3s linear;
+      a {
+        font-size: 1.8rem;
+        font-weight: 400;
+        color: #191919;
+        border: 1px solid #191919;
+        padding: 1.5rem 3.8rem;
 
-            &:hover {
-              background-color: #343434;
-              color: #ffffff;
-            }
+        &.one {
+          background-color: #ffffff;
+
+          transition: 0.3s linear;
+
+          &:hover {
+            background-color: #343434;
+            color: #ffffff;
+            border: none;
           }
         }
       }

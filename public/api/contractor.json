@@ -17,6 +17,11 @@
     },
     {
       "id": 4,
+      "to": "/services",
+      "link_name": "Services"
+    },
+    {
+      "id": 5,
       "to": "/contact",
       "link_name": "Contact"
     }
@@ -25,15 +30,18 @@
     "bannerImg": "/assets/img/homepage/banner/banner-img.png",
     "bannerTitle": "We provide effective contracting services",
     "bannerText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit dolor sit varius rhoncus, nullam pulvinar ut sollicitudin dictumst porttitor porttitor quis quisque erat.",
-    "bannerBtn1": "Get a quote",
-    "bannerBtn2": "Our services"
+    "bannerBtn1": "Contact us",
+    "btnTo1": "/contact",
+    "bannerBtn2": "Our services",
+    "btnTo2": "/services"
   },
   "mainAbout": {
     "aboutImg": "/assets/img/homepage/about/about-img.png",
     "aboutTitleUp": "/About Us",
     "aboutTitleBottom": "A team of reliable and experienced contractors",
     "aboutText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit tristique imperdiet nisi metus, viverra nulla aliquet dui porta porttitor neque lectus diam justo lobortis purus in elit, elementum dignissim nullam vitae pellentesque aliquet aliquam sagittis pulvinar egestas morbi suspendisse eleifend.",
-    "aboutBtn": "About our company"
+    "aboutBtn": "About our company",
+    "btnTo": "/about"
   },
   "mainServices": {
     "servicesTitleUp": "/Our Services",
@@ -41,6 +49,7 @@
     "servicesText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit tristique imperdiet nisi metus, viverra nulla aliquet dui porta porttitor neque lectus diam justo lobortis purus in elit, elementum dignissim nullam vitae pellentesque aliquet aliquam sagittis pulvinar egestas morbi suspendisse eleifend.",
     "servicesBtn1": "Get a quote",
     "servicesBtn2": "Browse services",
+    "btnTo": "/services",
     "servicesCards": [
       {
         "id": 1,
@@ -48,7 +57,8 @@
         "cardAlt": "service",
         "cardTitle": "Project Planning",
         "cardText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit quis eget morbi fermentum sagittis, et mi lacus ornare tincidunt id.",
-        "cardLink": "Learn more"
+        "cardLink": "Learn more",
+        "cardLinkTo": "/services"
       },
       {
         "id": 2,
@@ -56,7 +66,8 @@
         "cardAlt": "service",
         "cardTitle": "Project Management",
         "cardText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit quis eget morbi fermentum sagittis, et mi lacus ornare tincidunt id.",
-        "cardLink": "Learn more"
+        "cardLink": "Learn more",
+        "cardLinkTo": "/services"
       },
       {
         "id": 3,
@@ -64,7 +75,8 @@
         "cardAlt": "service",
         "cardTitle": "General Contracting",
         "cardText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit quis eget morbi fermentum sagittis, et mi lacus ornare tincidunt id.",
-        "cardLink": "Learn more"
+        "cardLink": "Learn more",
+        "cardLinkTo": "/services"
       },
       {
         "id": 4,
@@ -72,7 +84,8 @@
         "cardAlt": "service",
         "cardTitle": "Interior Design",
         "cardText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit quis eget morbi fermentum sagittis, et mi lacus ornare tincidunt id.",
-        "cardLink": "Learn more"
+        "cardLink": "Learn more",
+        "cardLinkTo": "/services"
       },
       {
         "id": 5,
@@ -80,7 +93,8 @@
         "cardAlt": "service",
         "cardTitle": "Exterior Design",
         "cardText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit quis eget morbi fermentum sagittis, et mi lacus ornare tincidunt id.",
-        "cardLink": "Learn more"
+        "cardLink": "Learn more",
+        "cardLinkTo": "/services"
       },
       {
         "id": 6,
@@ -88,7 +102,8 @@
         "cardAlt": "service",
         "cardTitle": "Space Planning",
         "cardText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit quis eget morbi fermentum sagittis, et mi lacus ornare tincidunt id.",
-        "cardLink": "Learn more"
+        "cardLink": "Learn more",
+        "cardLinkTo": "/services"
       }
     ]
   },
@@ -100,7 +115,8 @@
     "coverText1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit dolor sit",
     "coverText2": "varius rhoncus, nullam pulvinar ut sollicitudin dictumst porttitor porttitor quis.",
     "coverBtn1": "Get a quote",
-    "coverBtn2": "Our services"
+    "coverBtn2": "Our services",
+    "btnTo": "/services"
   },
   "mainChoice": {
     "choiceTitleUp": "/Why Choose Us",
@@ -137,6 +153,7 @@
     "projectsTitleBottom": "Our project results speak for themselves",
     "projectsBtn1": "Get a quote",
     "projectsBtn2": "Browse services",
+    "btnTo": "/services",
     "projectsCards": [
       {
         "id": 1,
@@ -216,6 +233,7 @@
     "blogTitleUp": "/Blog",
     "blogTitleBottom": "Articles & News",
     "blogBtn": "Browse articles",
+    "btnTo": "/blog",
     "blogAlt": "blog",
     "blogImg": "/assets/img/blog/blog-img.png",
     "blogText": "12 designers tricks for picking the perfect home color palette",
@@ -269,8 +287,10 @@
         "to": "/services"
       }
     ],
-    "footerTopContactTitle": "Contact us",
-    "footerTopContactInfo": [
+    "footerTopContactUs": "Contact Us",
+    "footerTopContactTitle": "Call us",
+    "footerButton": "Submit",
+    "footerTopContactCall": [
       {
         "id": 1,
         "contactImg": "/assets/img/footer/contact-phone.svg",

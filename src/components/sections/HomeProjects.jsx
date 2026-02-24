@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import "../../styles/homepage/_homepage_projects.scss";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
-function HomeProjects({ title, title2, btnText1, btnText2, dataCard }) {
+function HomeProjects({ title, title2, btnText1, btnText2, dataCard, btnTo }) {
   return (
     <>
       <div className="projects">
@@ -12,16 +12,13 @@ function HomeProjects({ title, title2, btnText1, btnText2, dataCard }) {
           <h3>{title2}</h3>
 
           <div className="projects-buttons">
-            <button>
-              <Link className="one" to={"/"}>
-                {btnText1}
-              </Link>
-            </button>
-            <button>
-              <Link className="two" to={"/"}>
-                {btnText2}
-              </Link>
-            </button>
+            <Link className="one" to={"/"}>
+              {btnText1}
+            </Link>
+
+            <Link className="two" to={btnTo || "/"}>
+              {btnText2}
+            </Link>
           </div>
         </div>
         <div className="projects-cards">

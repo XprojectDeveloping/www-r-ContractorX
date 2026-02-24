@@ -24,7 +24,7 @@ function Header() {
       <header
         className={`${scroll ? "header-scroll header-scroll-block" : ""}`}
       >
-        <div className={`header-block ${scroll ? "header-scroll-block" : ""}`}>
+        <nav className={`header-block ${scroll ? "header-scroll-block" : ""}`}>
           {data?.header &&
             data?.header?.map((item, index) => {
               return (
@@ -33,7 +33,7 @@ function Header() {
                 </NavLink>
               );
             })}
-        </div>
+        </nav>
       </header>
     </>
   );

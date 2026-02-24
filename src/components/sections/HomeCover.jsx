@@ -9,6 +9,7 @@ function HomeCover({
   text2,
   btnText1,
   btnText2,
+  btnTo,
 }) {
   return (
     <>
@@ -24,16 +25,13 @@ function HomeCover({
           <p>{text2}</p>
 
           <div className="cover-buttons">
-            <button>
-              <Link className="one" to={"/"}>
-                {btnText1}
-              </Link>
-            </button>
-            <button>
-              <Link className="two" to={"/"}>
-                {btnText2}
-              </Link>
-            </button>
+            <Link className="one" to={"/"}>
+              {btnText1}
+            </Link>
+
+            <Link className="two" to={btnTo || "/"}>
+              {btnText2}
+            </Link>
           </div>
         </div>
       </div>

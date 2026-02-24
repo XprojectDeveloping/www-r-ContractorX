@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import "../../styles/homepage/_homepage_blog.scss";
 import { useEffect, useState } from "react";
 
-function HomeBlog({ title, title2, btnText, img, alt, text, dataCard }) {
+function HomeBlog({ title, title2, btnText, img, alt, text, dataCard, btnTo }) {
   const [curretDate, setCurretDate] = useState(new Date());
 
   useEffect(() => {
@@ -21,9 +21,11 @@ function HomeBlog({ title, title2, btnText, img, alt, text, dataCard }) {
         <div className="blog-title">
           <h3>{title2}</h3>
 
-          <button>
-            <Link className="one">{btnText}</Link>
-          </button>
+          <div>
+            <Link to={btnTo} className="one">
+              {btnText}
+            </Link>
+          </div>
         </div>
 
         <div className="blog-post-cards">
@@ -35,7 +37,10 @@ function HomeBlog({ title, title2, btnText, img, alt, text, dataCard }) {
               <p>{text}</p>
               <div className="time">
                 <span>{curretDate.getDate()}/</span>
-                <span>0{curretDate.getMonth() + 1}/</span>
+                <span>
+                  {"0"}
+                  {curretDate.getMonth() + 1}/
+                </span>
                 <span>{curretDate.getFullYear()}</span>
               </div>
             </div>

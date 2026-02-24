@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import "../../styles/homepage/_homepage_services.scss";
-function HomeServices({ title, title2, btnText1, btnText2, dataCard }) {
+function HomeServices({ title, title2, btnText1, btnText2, dataCard, btnTo }) {
   return (
     <>
       <div className="services">
@@ -9,16 +9,13 @@ function HomeServices({ title, title2, btnText1, btnText2, dataCard }) {
         <div className="services-title">
           <h3>{title2}</h3>
           <div className="services-buttons">
-            <button>
-              <Link className="one" to={"/"}>
-                {btnText1}
-              </Link>
-            </button>
-            <button>
-              <Link className="two" to={"/"}>
-                {btnText2}
-              </Link>
-            </button>
+            <Link className="one" to={"/"}>
+              {btnText1}
+            </Link>
+
+            <Link className="two" to={btnTo || "/"}>
+              {btnText2}
+            </Link>
           </div>
         </div>
         <div className="services-cards">
@@ -29,9 +26,13 @@ function HomeServices({ title, title2, btnText1, btnText2, dataCard }) {
                   <div className="card-img">
                     <img src={item?.cardImg} alt={item?.cardAlt} />
                   </div>
-                  <h3>{item?.cardTitle}</h3>
-                  <p>{item?.cardText}</p>
-                  <Link to={"/services"}>{item?.cardLink}</Link>
+                  <div className="card-text">
+                    <h3>{item?.cardTitle}</h3>
+                    <p>{item?.cardText}</p>
+                  </div>
+                  <div className="card-link">
+                    <Link to={item?.cardLinkTo || "/"}>{item?.cardLink}</Link>
+                  </div>
                 </div>
               );
             })}

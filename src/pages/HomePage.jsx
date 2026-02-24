@@ -9,7 +9,7 @@ import HomeReviews from "../components/sections/HomeReviews";
 import HomeServices from "../components/sections/HomeServices";
 import useGlobalFetch from "../components/useGlobalFetch/useGlobalFetch";
 
-function HomePage(params) {
+function HomePage() {
   const { data } = useGlobalFetch();
   return (
     <main>
@@ -20,6 +20,8 @@ function HomePage(params) {
             text={data?.mainBanner?.bannerText}
             buttonText1={data?.mainBanner?.bannerBtn1}
             buttonText2={data?.mainBanner?.bannerBtn2}
+            btnTo1={data?.mainBanner?.btnTo1}
+            btnTo2={data?.mainBanner?.btnTo2}
           />
         )}
       </section>
@@ -32,6 +34,7 @@ function HomePage(params) {
               title2={data?.mainAbout?.aboutTitleBottom}
               text={data?.mainAbout?.aboutText}
               buttonText={data?.mainAbout?.aboutBtn}
+              btnTo={data?.mainAbout?.btnTo}
             />
           )}
         </MaxWidth>
@@ -45,6 +48,7 @@ function HomePage(params) {
               btnText1={data?.mainServices?.servicesBtn1}
               btnText2={data?.mainServices?.servicesBtn2}
               dataCard={data?.mainServices?.servicesCards}
+              btnTo={data?.mainServices?.btnTo}
             />
           )}
         </MaxWidth>
@@ -59,6 +63,7 @@ function HomePage(params) {
             text2={data?.mainCover?.coverText2}
             btnText1={data?.mainCover?.coverBtn1}
             btnText2={data?.mainCover?.coverBtn2}
+            btnTo={data?.mainCover?.btnTo}
           ></HomeCover>
         )}
       </section>
@@ -91,6 +96,7 @@ function HomePage(params) {
               btnText1={data?.mainProjects?.projectsBtn1}
               btnText2={data?.mainProjects?.projectsBtn2}
               dataCard={data?.mainProjects?.projectsCards}
+              btnTo={data?.mainProjects?.btnTo}
             />
           )}
         </MaxWidth>
@@ -119,6 +125,7 @@ function HomePage(params) {
               alt={data?.mainBlog?.blogAlt}
               text={data?.mainBlog?.blogText}
               dataCard={data?.mainBlog?.blogCards}
+              btnTo={data?.mainBlog?.btnTo}
             />
           )}
         </MaxWidth>

@@ -26,32 +26,32 @@ main {
       .projects-buttons {
         display: flex;
         gap: 2.8rem;
-        button {
-          a {
-            font-size: 1.8rem;
-            font-weight: 400;
-            color: #ffffff;
 
-            &.one {
-              background-color: #ff4d01;
-              padding: 1.5rem 3.8rem;
-              transition: 0.3s linear;
+        a {
+          font-size: 1.8rem;
+          font-weight: 400;
+          color: #ffffff;
 
-              &:hover {
-                background-color: #343434;
-              }
+          &.one {
+            background-color: #ff4d01;
+            padding: 1.5rem 3.8rem;
+            transition: 0.3s linear;
+
+            &:hover {
+              background-color: #343434;
             }
+          }
 
-            &.two {
-              border: 1px solid #191919;
-              color: #191919;
-              padding: 1.5rem 3.8rem;
-              transition: 0.3s linear;
+          &.two {
+            border: 1px solid #191919;
+            color: #191919;
+            padding: 1.5rem 3.8rem;
+            transition: 0.3s linear;
 
-              &:hover {
-                background-color: #ff4d01;
-                color: #ffffff;
-              }
+            &:hover {
+              background-color: #ff4d01;
+              color: #ffffff;
+              border: none;
             }
           }
         }

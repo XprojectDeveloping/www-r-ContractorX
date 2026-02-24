@@ -1,17 +1,15 @@
 main {
-  .home-about {
-    margin-top: 10rem;
+  .about {
     display: flex;
-
     gap: 7.3rem;
-
-    .home-about-img {
+    margin-bottom: 10rem;
+    .about-img {
       img {
         max-width: 45rem;
       }
     }
 
-    .home-about-text {
+    .about-text {
       margin-top: 4rem;
       span {
         font-size: 2rem;
@@ -19,7 +17,7 @@ main {
         color: #ff4d01;
         text-transform: uppercase;
       }
-      .home-about-title {
+      .about-title {
         margin-top: 1.5rem;
         h3 {
           font-size: 5.4rem;
@@ -37,7 +35,7 @@ main {
         }
       }
 
-      .home-about-num {
+      .about-num {
         margin-top: 5.6rem;
         margin-bottom: 7.1rem;
         display: flex;
@@ -71,19 +69,18 @@ main {
         }
       }
 
-      button {
-        a {
-          font-size: 1.8rem;
-          font-weight: 400;
-          color: #191919;
-          border: 2px solid #191919;
-          padding: 1.8rem 2.9rem;
-          transition: 0.3s linear;
+      a {
+        font-size: 1.8rem;
+        font-weight: 400;
+        color: #191919;
+        border: 2px solid #191919;
+        padding: 1.8rem 2.9rem;
+        transition: 0.3s linear;
 
-          &:hover {
-            color: white;
-            background-color: #605e5d;
-          }
+        &:hover {
+          color: white;
+          background-color: #605e5d;
+          border: none;
         }
       }
     }

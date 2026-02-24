@@ -1,6 +1,6 @@
 main {
   .services {
-    margin-top: 10rem;
+    margin-bottom: 10rem;
     span {
       font-weight: 400;
       font-size: 2rem;
@@ -23,32 +23,32 @@ main {
       .services-buttons {
         display: flex;
         gap: 2.8rem;
-        button {
-          a {
-            font-size: 1.8rem;
-            font-weight: 400;
-            color: #ffffff;
 
-            &.one {
-              background-color: #ff4d01;
-              padding: 1.5rem 3.8rem;
-              transition: 0.3s linear;
+        a {
+          font-size: 1.8rem;
+          font-weight: 400;
+          color: #ffffff;
 
-              &:hover {
-                background-color: #343434;
-              }
+          &.one {
+            background-color: #ff4d01;
+            padding: 1.5rem 3.8rem;
+            transition: 0.3s linear;
+
+            &:hover {
+              background-color: #343434;
             }
+          }
 
-            &.two {
-              border: 1px solid #191919;
-              color: #191919;
-              padding: 1.5rem 3.8rem;
-              transition: 0.3s linear;
+          &.two {
+            border: 1px solid #191919;
+            color: #191919;
+            padding: 1.5rem 3.8rem;
+            transition: 0.3s linear;
 
-              &:hover {
-                background-color: #ff4d01;
-                color: #ffffff;
-              }
+            &:hover {
+              background-color: #ff4d01;
+              color: #ffffff;
+              border: none;
             }
           }
         }
@@ -67,33 +67,40 @@ main {
         .card-img {
           margin-bottom: 3.2rem;
         }
-        h3 {
-          font-weight: 400;
-          font-size: 3.4rem;
-          color: #191919;
-          margin-bottom: 1.4rem;
-        }
-        p {
-          font-weight: 400;
-          font-size: 1.8rem;
-          color: #605e5d;
-          text-transform: lowercase;
-          margin-bottom: 1.3rem;
-        }
-
-        a {
-          font-size: 1.8rem;
-          font-weight: 400;
-          color: #191919;
-          margin-top: 1.3rem;
-
-          &::before {
-            content: "";
+        .card-text {
+          margin-bottom: 2.3rem;
+          h3 {
+            font-weight: 400;
+            font-size: 3.4rem;
             color: #191919;
-            border: 1px solid #191919;
-            background-color: #191919;
-            padding: 0.7rem 1.8rem;
-            margin-right: 1rem;
+            margin-bottom: 1.4rem;
+          }
+          p {
+            font-weight: 400;
+            font-size: 1.8rem;
+            color: #605e5d;
+            text-transform: lowercase;
+          }
+        }
+        .card-link {
+          a {
+            font-size: 1.8rem;
+            font-weight: 400;
+            color: #191919;
+            margin-top: 1.3rem;
+            transition: 0.3s linear;
+            &:hover {
+              color: #ff4d01;
+            }
+
+            &::before {
+              content: "";
+              color: #191919;
+              border: 1px solid #191919;
+              background-color: #191919;
+              padding: 0.7rem 1.8rem;
+              margin-right: 1rem;
+            }
           }
         }
       }

@@ -5,16 +5,17 @@ footer {
     display: flex;
     justify-content: space-around;
     padding: 5rem;
-    p {
-      font-size: 2.2rem;
-      font-weight: 400;
-      color: #ffffff;
-      margin-bottom: 4rem;
-    }
     .footer-top-links {
       display: flex;
       flex-direction: column;
       gap: 2.5rem;
+      p {
+        font-size: 2.2rem;
+        font-weight: 400;
+        color: #ffffff;
+        margin-bottom: 4rem;
+        text-align: center;
+      }
 
       a {
         color: #eaeaeb;
@@ -27,7 +28,61 @@ footer {
         }
       }
     }
+
+    .footer-form {
+      p {
+        font-size: 2.2rem;
+        font-weight: 400;
+        color: #ffffff;
+        margin-bottom: 4rem;
+        text-align: center;
+      }
+
+      form {
+        .form-block {
+          display: flex;
+          flex-direction: column;
+          gap: 3rem;
+          margin-bottom: 2rem;
+
+          input {
+            border: 1px solid #ff4d01;
+            padding: 1rem 3rem;
+            font-size: 1.8rem;
+            color: #ffffff;
+
+            &::placeholder {
+              color: #ffffff;
+            }
+          }
+        }
+
+        .button-block {
+          display: flex;
+          justify-content: center;
+          button {
+            border: 1px solid #ff4d01;
+            color: #ffffff;
+            padding: 1rem 3rem;
+            font-size: 1.8rem;
+            transition: 0.3s linear;
+
+            &:hover {
+              background-color: #ff4d01;
+            }
+          }
+        }
+      }
+    }
+
     .footer-top-contact {
+      p {
+        font-size: 2.2rem;
+        font-weight: 400;
+        color: #ffffff;
+        margin-bottom: 4rem;
+        text-align: center;
+      }
       .footer-top-contacts {
         display: flex;
         flex-direction: column;
