@@ -107,3 +107,42 @@ main {
     }
   }
 }
+
+@media screen and (max-width: 1023px) {
+  main {
+    .services {
+      margin-bottom: 8rem;
+      .services-title {
+        margin-bottom: 4.4rem;
+        h3 {
+          font-size: 4.4rem;
+        }
+
+        .services-buttons {
+          a {
+            font-size: 1.6rem;
+          }
+        }
+      }
+
+      .services-cards {
+        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+        gap: 3.7rem;
+
+        .services-card {
+          .card-text {
+            h3 {
+              font-size: 2.4rem;
+            }
+          }
+
+          .card-link {
+            a {
+              font-size: 1.6rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}

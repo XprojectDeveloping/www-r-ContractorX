@@ -6,7 +6,7 @@ main {
       display: flex;
       gap: 8.2rem;
 
-      &:first-child{
+      &:first-child {
         margin-bottom: 10rem;
       }
 
@@ -75,6 +75,45 @@ main {
               font-weight: 400;
               color: #989899;
             }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  main {
+    .choice {
+      margin-bottom: 5rem;
+
+      .choice-container:first-child {
+        margin-bottom: 0;
+      }
+
+      .choice-container {
+        flex-direction: column;
+        gap: 0;
+
+        .choice-title {
+          margin-top: 0;
+          h3 {
+            font-size: 4.4rem;
+          }
+
+          .choice-num {
+            justify-content: center;
+
+            .num {
+              .top {
+                font-size: 6em;
+              }
+            }
+          }
+        }
+        .choice-img {
+          img {
+            display: none;
           }
         }
       }

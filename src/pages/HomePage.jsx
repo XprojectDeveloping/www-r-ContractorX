@@ -8,7 +8,6 @@ import HomeProjects from "../components/sections/HomeProjects";
 import HomeReviews from "../components/sections/HomeReviews";
 import HomeServices from "../components/sections/HomeServices";
 import useGlobalFetch from "../components/useGlobalFetch/useGlobalFetch";
-
 function HomePage() {
   const { data } = useGlobalFetch();
   return (

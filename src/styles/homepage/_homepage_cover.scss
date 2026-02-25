@@ -63,3 +63,27 @@ main {
     }
   }
 }
+@media screen and (max-width: 1023px) {
+  main {
+    .cover {
+      margin-bottom: 5rem;
+      .cover-title {
+        bottom: 5rem;
+        left: 3.6rem;
+        h3 {
+          font-size: 4.4rem;
+        }
+
+        p {
+          font-size: 1.6rem;
+        }
+
+        .cover-buttons {
+          a {
+            font-size: 1.6rem;
+          }
+        }
+      }
+    }
+  }
+}

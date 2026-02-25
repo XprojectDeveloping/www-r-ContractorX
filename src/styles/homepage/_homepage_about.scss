@@ -86,3 +86,45 @@ main {
     }
   }
 }
+
+@media screen and (max-width: 1023px) {
+  main {
+    .about {
+      gap: 3.3rem;
+      margin-bottom: 8rem;
+      .about-text {
+        margin-top: 0;
+        .about-title {
+          h3 {
+            font-size: 4.4rem;
+            line-height: inherit;
+          }
+        }
+        .about-num {
+          margin-top: 3rem;
+          margin-bottom: 5rem;
+          justify-content: center;
+          .num {
+            .top {
+              font-size: 6rem;
+
+              span {
+                font-size: 6rem;
+              }
+            }
+          }
+        }
+
+        a {
+          font-size: 1.6rem;
+        }
+      }
+      flex-direction: column;
+      .about-img {
+        img {
+          display: none;
+        }
+      }
+    }
+  }
+}
