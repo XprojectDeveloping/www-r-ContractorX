@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import "../../styles/homepage/_homepage_projects.scss";
+import "../../../styles/homepage/_homepage_projects.scss";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 function HomeProjects({ title, title2, btnText1, btnText2, dataCard, btnTo }) {

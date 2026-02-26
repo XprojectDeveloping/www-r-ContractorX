@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import "../../styles/homepage/_homepage_about.scss";
+import "../../../styles/homepage/_homepage_about.scss";
 function HomeAbout({ img, title1, title2, text, buttonText, btnTo }) {
   return (
     <>

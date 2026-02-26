@@ -1,4 +1,4 @@
-import "../../styles/homepage/_homepage_choice.scss";
+import "../../../styles/homepage/_homepage_choice.scss";
 function HomeChoice({
   imgLeft,
   altLedft,

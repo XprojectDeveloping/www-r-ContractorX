@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import "../../styles/homepage/_homepage_cover.scss";
+import "../../../styles/homepage/_homepage_cover.scss";
 function HomeCover({
   bgImg,
   alt,

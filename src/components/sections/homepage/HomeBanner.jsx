@@ -1,4 +1,4 @@
-import "../../styles/homepage/_homepage_banner.scss";
+import "../../../styles/homepage/_homepage_banner.scss";
 import { Link } from "react-router-dom";
 function HomeBanner({ title, text, buttonText1, buttonText2, btnTo1, btnTo2 }) {
   return (

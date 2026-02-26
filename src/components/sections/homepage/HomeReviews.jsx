@@ -1,5 +1,5 @@
 import { Swiper, SwiperSlide } from "swiper/react";
-import "../../styles/homepage/_homepape_reviews.scss";
+import "../../../styles/homepage/_homepape_reviews.scss";
 function HomeReviews({ title, title2, dataCard }) {
   return (
     <>

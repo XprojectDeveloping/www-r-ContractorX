@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import "../../styles/homepage/_homepage_blog.scss";
+import "../../../styles/homepage/_homepage_blog.scss";
 import { useEffect, useState } from "react";
 
 function HomeBlog({ title, title2, btnText, img, alt, text, dataCard, btnTo }) {
