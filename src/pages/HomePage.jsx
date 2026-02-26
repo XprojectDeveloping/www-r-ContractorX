@@ -1,12 +1,12 @@
 import MaxWidth from "../components/MaxWidth/MaxWidth";
-import HomeAbout from "../components/sections/HomeAbout";
-import HomeBanner from "../components/sections/HomeBanner";
-import HomeBlog from "../components/sections/HomeBlog";
-import HomeChoice from "../components/sections/HomeChoice";
-import HomeCover from "../components/sections/HomeCover";
-import HomeProjects from "../components/sections/HomeProjects";
-import HomeReviews from "../components/sections/HomeReviews";
-import HomeServices from "../components/sections/HomeServices";
+import HomeAbout from "../components/sections/homepage/HomeAbout";
+import HomeBanner from "../components/sections/homepage/HomeBanner";
+import HomeBlog from "../components/sections/homepage/HomeBlog";
+import HomeChoice from "../components/sections/homepage/HomeChoice";
+import HomeCover from "../components/sections/homepage/HomeCover";
+import HomeProjects from "../components/sections/homepage/HomeProjects";
+import HomeReviews from "../components/sections/homepage/HomeReviews";
+import HomeServices from "../components/sections/homepage/HomeServices";
 import useGlobalFetch from "../components/useGlobalFetch/useGlobalFetch";
 function HomePage() {
   const { data } = useGlobalFetch();

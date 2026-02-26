@@ -146,3 +146,30 @@ main {
     }
   }
 }
+
+@media screen and (max-width: 767px) {
+  main {
+    .services {
+      span {
+        font-size: 1.5rem;
+      }
+
+      .services-title {
+        gap: 3rem;
+        h3 {
+          font-size: 3.4rem;
+        }
+        .services-buttons {
+          a {
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 566px) {
+}
+
+@media screen and (max-width: 480px) {
+}

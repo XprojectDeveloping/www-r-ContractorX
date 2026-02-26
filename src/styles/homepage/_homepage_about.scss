@@ -128,3 +128,41 @@ main {
     }
   }
 }
+
+@media screen and (max-width: 767px) {
+  main {
+    .about {
+      .about-text {
+        span {
+          font-size: 1.5rem;
+        }
+        .about-title {
+          h3 {
+            font-size: 3.4rem;
+          }
+          p {
+            font-size: 1.6rem;
+          }
+        }
+
+        .about-num {
+          .num {
+            .top {
+              font-size: 5rem;
+
+              span {
+                font-size: 5rem;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 566px) {
+}
+
+@media screen and (max-width: 480px) {
+}

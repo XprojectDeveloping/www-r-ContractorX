@@ -98,3 +98,32 @@ main {
     }
   }
 }
+
+@media screen and (max-width: 767px) {
+  main {
+    .banner {
+      .banner-text {
+        h1 {
+          font-size: 3.2rem;
+        }
+        p {
+          font-size: 1.6rem;
+        }
+        .banner-buttons {
+          a {
+            font-size: 1.6rem;
+          }
+        }
+      }
+      .banner-img {
+        height: 65vh;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 566px) {
+}
+
+@media screen and (max-width: 480px) {
+}

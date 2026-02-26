@@ -26,9 +26,9 @@ function HomeProjects({ title, title2, btnText1, btnText2, dataCard, btnTo }) {
             slidesPerView={2}
             spaceBetween={60}
             breakpoints={{
-              640: { slidesPerView: 2 },
-              768: { slidesPerView: 3 },
-              1024: { slidesPerView: 2 },
+              640: { slidesPerView: 1 },
+              768: { slidesPerView: 2 },
+              1024: { slidesPerView: 1 },
             }}
             loop={true}
           >

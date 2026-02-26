@@ -16,7 +16,7 @@ function HomeReviews({ title, title2, dataCard }) {
             spaceBetween={0}
             breakpoints={{
               640: { slidesPerView: 2 },
-              768: { slidesPerView: 3 },
+              768: { slidesPerView: 1 },
               1024: { slidesPerView: 1 },
             }}
             loop={true}

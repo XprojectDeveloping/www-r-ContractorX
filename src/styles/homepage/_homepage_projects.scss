@@ -108,3 +108,56 @@ main {
     }
   }
 }
+
+@media screen and (max-width: 1023px) {
+  main {
+    .projects {
+      margin-bottom: 5rem;
+      .projects-title {
+        h3 {
+          font-size: 4.4rem;
+          .projects-buttons {
+            a {
+              font-size: 1.6rem;
+            }
+          }
+        }
+      }
+      .projects-cards {
+        .swiper {
+          .swiper-wrapper {
+            .swiper-slide {
+              .projects-card {
+                img {
+                  max-width: 45rem;
+                }
+                .projects-card-title {
+                  h3 {
+                    font-size: 2.4rem;
+                  }
+                  p {
+                    font-size: 1.6rem;
+                    padding-bottom: 2.3rem;
+                  }
+
+                  .bottom {
+                    font-size: 1.6rem !important;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+}
+
+@media screen and (max-width: 566px) {
+}
+
+@media screen and (max-width: 480px) {
+}
