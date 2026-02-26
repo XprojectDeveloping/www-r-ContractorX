@@ -150,18 +150,20 @@ main {
 @media screen and (max-width: 767px) {
   main {
     .services {
+      margin-bottom: 5rem;
       span {
         font-size: 1.5rem;
       }
 
       .services-title {
+        margin-bottom: 3.4rem;
         gap: 3rem;
         h3 {
           font-size: 3.4rem;
+          width: inherit;
         }
         .services-buttons {
-          a {
-          }
+          display: none;
         }
       }
     }
@@ -169,6 +171,31 @@ main {
 }
 
 @media screen and (max-width: 566px) {
+  main {
+    .services {
+      .services-title {
+        margin-bottom: 2.4rem;
+        h3 {
+          font-size: 2.4rem;
+        }
+      }
+      .services-cards {
+        .services-card {
+          .card-img {
+            margin-bottom: 2.3rem;
+          }
+          .card-text {
+            h3 {
+              font-size: 2rem;
+            }
+            p {
+              font-size: 1.6rem;
+            }
+          }
+        }
+      }
+    }
+  }
 }
 
 @media screen and (max-width: 480px) {

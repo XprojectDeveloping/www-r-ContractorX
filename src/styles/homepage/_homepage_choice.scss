@@ -85,7 +85,7 @@ main {
 @media screen and (max-width: 1023px) {
   main {
     .choice {
-      margin-bottom: 5rem;
+      margin-bottom: 8rem;
 
       .choice-container:first-child {
         margin-bottom: 0;
@@ -122,6 +122,34 @@ main {
 }
 
 @media screen and (max-width: 767px) {
+  main {
+    .choice {
+      margin-bottom: 5rem;
+      .choice-container {
+        .choice-title {
+          margin-bottom: 3.4rem;
+          span {
+            font-size: 1.5rem;
+          }
+          h3 {
+            font-size: 3.3rem;
+          }
+
+          .choice-num {
+            .num {
+              .top {
+                font-size: 5rem;
+              }
+
+              .up {
+                font-size: 1.6rem;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 }
 
 @media screen and (max-width: 566px) {

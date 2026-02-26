@@ -90,7 +90,7 @@ main {
 @media screen and (max-width: 1023px) {
   main {
     .about {
-      gap: 3.3rem;
+      gap: inherit;
       margin-bottom: 8rem;
       .about-text {
         margin-top: 0;
@@ -98,6 +98,9 @@ main {
           h3 {
             font-size: 4.4rem;
             line-height: inherit;
+          }
+          p {
+            line-height: normal;
           }
         }
         .about-num {
@@ -107,6 +110,7 @@ main {
           .num {
             .top {
               font-size: 6rem;
+              line-height: normal;
 
               span {
                 font-size: 6rem;
@@ -132,7 +136,9 @@ main {
 @media screen and (max-width: 767px) {
   main {
     .about {
+      margin-bottom: 5rem;
       .about-text {
+        margin-bottom: 3.4rem;
         span {
           font-size: 1.5rem;
         }
@@ -162,6 +168,44 @@ main {
 }
 
 @media screen and (max-width: 566px) {
+  main {
+    .about {
+      margin-bottom: 3rem;
+      .about-text {
+        .about-title {
+          h3 {
+            font-size: 2.4rem;
+          }
+
+          p {
+            font-size: 1.3rem;
+          }
+        }
+        .about-num {
+          gap: 3.2rem;
+          margin-top: 2.5rem;
+
+          .num {
+            .top {
+              justify-content: center;
+              flex-direction: unset;
+              font-size: 4rem;
+              span {
+                font-size: 4rem;
+              }
+            }
+            .up {
+              font-size: 1.6rem;
+            }
+          }
+        }
+        a {
+          font-size: 1.3rem;
+          padding: 1.6rem 2.9rem;
+        }
+      }
+    }
+  }
 }
 
 @media screen and (max-width: 480px) {

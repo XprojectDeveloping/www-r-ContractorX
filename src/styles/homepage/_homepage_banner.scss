@@ -86,7 +86,7 @@ main {
 @media screen and (max-width: 1023px) {
   main {
     .banner {
-      margin-bottom: 0rem;
+      margin-bottom: 8rem;
       .banner-img {
         height: 80vh;
       }
@@ -102,6 +102,7 @@ main {
 @media screen and (max-width: 767px) {
   main {
     .banner {
+      margin-bottom: 5rem;
       .banner-text {
         h1 {
           font-size: 3.2rem;
@@ -123,6 +124,35 @@ main {
 }
 
 @media screen and (max-width: 566px) {
+  main {
+    .banner {
+      margin-bottom: 3rem;
+      .banner-img {
+        height: 44vh;
+      }
+
+      .banner-text {
+        h1 {
+          font-size: 3rem;
+        }
+        p {
+          font-size: 1.3rem;
+          margin-bottom: 2.5rem;
+        }
+
+        .banner-buttons {
+          a {
+            &.one {
+              padding: 1.1rem 1.5rem;
+            }
+            &.two {
+              padding: 1.1rem 1.5rem;
+            }
+          }
+        }
+      }
+    }
+  }
 }
 
 @media screen and (max-width: 480px) {
