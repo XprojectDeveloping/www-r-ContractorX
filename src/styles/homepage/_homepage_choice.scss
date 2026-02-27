@@ -107,6 +107,7 @@ main {
             .num {
               .top {
                 font-size: 6em;
+                line-height: normal;
               }
             }
           }
@@ -153,6 +154,40 @@ main {
 }
 
 @media screen and (max-width: 566px) {
+  main {
+    .choice {
+      margin-bottom: 3rem;
+      .choice-container {
+        .choice-title {
+          h3 {
+            font-size: 2.4rem;
+          }
+          p {
+            font-size: 1.6rem;
+          }
+          ul {
+            li {
+              font-size: 1.6rem;
+            }
+          }
+          margin-bottom: 0;
+          .choice-num {
+            .num {
+              .top {
+                font-size: 4rem;
+                span {
+                  font-size: 4rem;
+                }
+              }
+              .up {
+                font-size: 1.3rem;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 }
 
 @media screen and (max-width: 480px) {

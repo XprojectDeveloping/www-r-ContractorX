@@ -92,7 +92,7 @@ main {
       }
       .banner-text {
         h1 {
-          font-size: 5.2rem;
+          font-size: 4.2rem;
         }
       }
     }
@@ -133,7 +133,7 @@ main {
 
       .banner-text {
         h1 {
-          font-size: 3rem;
+          font-size: 2.1rem;
         }
         p {
           font-size: 1.3rem;
@@ -141,6 +141,7 @@ main {
         }
 
         .banner-buttons {
+          gap: 0.9rem;
           a {
             &.one {
               padding: 1.1rem 1.5rem;
@@ -156,4 +157,15 @@ main {
 }
 
 @media screen and (max-width: 480px) {
+  main {
+    .banner {
+      .banner-text {
+        .banner-buttons {
+          a {
+            font-size: 1.3rem;
+          }
+        }
+      }
+    }
+  }
 }

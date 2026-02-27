@@ -133,6 +133,36 @@ main {
 }
 
 @media screen and (max-width: 566px) {
+  main {
+    .reviews {
+      margin-bottom: 3rem;
+      .reviews-title {
+        margin-bottom: 2.4rem;
+        h3 {
+          font-size: 2.4rem;
+        }
+      }
+      .reviews-cards {
+        .swiper {
+          .swiper-wrapper {
+            .swiper-slide {
+              .reviews-card {
+                .reviews-card-text {
+                  h3 {
+                    font-size: 2rem;
+                  }
+                  p {
+                    font-size: 1.6rem;
+                    margin-bottom: 1.5rem;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 }
 
 @media screen and (max-width: 480px) {

@@ -81,7 +81,6 @@ footer {
         font-weight: 400;
         color: #ffffff;
         margin-bottom: 4rem;
-        text-align: center;
       }
       .footer-top-contacts {
         display: flex;
@@ -139,6 +138,57 @@ footer {
         p {
           margin-bottom: 1rem;
         }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 566px) {
+  footer {
+    .footer-top {
+      gap: 2.3rem;
+      .footer-top-links {
+        p {
+          font-size: 2rem;
+        }
+        a {
+          font-size: 1.6rem;
+        }
+      }
+      .footer-form {
+        p {
+          font-size: 2rem;
+          margin-bottom: 2.5rem;
+        }
+        form {
+          .form-block {
+            input {
+              font-size: 1.6rem;
+            }
+          }
+          .button-block {
+            button {
+              font-size: 1.6rem;
+            }
+          }
+        }
+      }
+      .footer-top-contact {
+        p {
+          font-size: 2rem;
+          margin-bottom: 2.5rem;
+        }
+        .footer-top-contacts {
+          .contact {
+            padding: 1.7rem 2.3rem;
+          }
+        }
+      }
+    }
+    .footer-bottom {
+      padding: 2rem;
+      p {
+        font-size: 1.6rem;
       }
     }
   }

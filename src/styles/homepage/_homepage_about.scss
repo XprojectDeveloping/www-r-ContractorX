@@ -209,4 +209,13 @@ main {
 }
 
 @media screen and (max-width: 480px) {
+  main {
+    .about {
+      .about-text {
+        a{
+          padding: 1.3rem 1.9rem;
+        }
+      }
+    }
+  }
 }
