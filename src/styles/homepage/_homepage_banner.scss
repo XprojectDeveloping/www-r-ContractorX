@@ -128,7 +128,7 @@ main {
     .banner {
       margin-bottom: 3rem;
       .banner-img {
-        height: 44vh;
+        height: 56vh;
       }
 
       .banner-text {
@@ -141,6 +141,7 @@ main {
         }
 
         .banner-buttons {
+          flex-direction: column;
           gap: 0.9rem;
           a {
             &.one {

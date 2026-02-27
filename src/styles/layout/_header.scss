@@ -45,9 +45,19 @@ header {
 @media screen and (max-width: 767px) {
   header {
     .header-block {
+      padding: 2.2rem;
       a {
         font-size: 1.6rem;
       }
+    }
+  }
+}
+
+@media screen and (max-width: 560px) {
+  header {
+    &.header-scroll {
+      position: fixed;
+      padding: 0 2rem;
     }
   }
 }
