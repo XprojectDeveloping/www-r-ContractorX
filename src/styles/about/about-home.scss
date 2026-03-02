@@ -1,0 +1,32 @@
+main {
+  .about-home {
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+    display: flex;
+    flex-direction: row;
+    gap: 7.3rem;
+
+    .about-img {
+      img {
+        max-width: 39rem;
+      }
+    }
+
+    .about-text {
+      h2 {
+        font-size: 5.4rem;
+        font-weight: 400;
+        color: #191919;
+        line-height: 61.99px;
+        margin-bottom: 1.9rem;
+      }
+
+      p {
+        font-size: 1.8rem;
+        font-weight: 400;
+        color: #605e5d;
+        line-height: 30.01px;
+      }
+    }
+  }
+}

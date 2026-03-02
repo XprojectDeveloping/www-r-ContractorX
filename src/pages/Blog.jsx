@@ -1,4 +1,8 @@
 function Bloq(params) {
-  return <></>;
+  return (
+    <>
+      <p>{"Will be here soon..."}</p>
+    </>
+  );
 }
 export default Bloq;

@@ -1,4 +1,8 @@
 function Contact(params) {
-  return <></>;
+  return (
+    <>
+      <p>{"Will be here soon..."}</p>
+    </>
+  );
 }
 export default Contact;

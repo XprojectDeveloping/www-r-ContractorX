@@ -37,9 +37,11 @@
   },
   "mainAbout": {
     "aboutImg": "/assets/img/homepage/about/about-img.png",
+    "aboutAlt": "about",
     "aboutTitleUp": "/About Us",
     "aboutTitleBottom": "A team of reliable and experienced contractors",
     "aboutText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit tristique imperdiet nisi metus, viverra nulla aliquet dui porta porttitor neque lectus diam justo lobortis purus in elit, elementum dignissim nullam vitae pellentesque aliquet aliquam sagittis pulvinar egestas morbi suspendisse eleifend.",
+    "aboutText2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit tristique imperdiet nisi metus, viverra nulla aliquet dui porta porttitor neque lectus diam justo lobortis purus in elit, elementum dignissim nullam vitae pellentesque aliquet aliquam sagittis pulvinar egestas morbi suspendisse eleifend. Lorem ipsum dolor sit amet, consectetur adipiscing elit tristique imperdiet nisi metus, viverra nulla aliquet dui porta porttitor neque lectus diam justo lobortis purus in elit, elementum dignissim nullam vitae pellentesque aliquet aliquam sagittis pulvinar egestas morbi suspendisse eleifend.",
     "aboutBtn": "About our company",
     "btnTo": "/about"
   },
