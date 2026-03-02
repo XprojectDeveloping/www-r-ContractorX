@@ -114,7 +114,7 @@ main {
 
         h3 {
           font-size: 4.4rem;
-          width: 0;
+          width: initial;
         }
 
         a {
@@ -197,8 +197,10 @@ main {
         flex-direction: column;
         align-items: start;
         gap: 2.2rem;
+
         h3 {
           font-size: 2.4rem;
+          width: initial;
         }
         a {
           &.one {
