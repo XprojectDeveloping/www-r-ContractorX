@@ -22,7 +22,7 @@ function Footer() {
                 );
               })}
           </div>
-          <Form form={data?.footer?.footerTopContactUs} />
+          <Form form={data?.footer} />
 
           <div className="footer-top-contact">
             <p>{data?.footer?.footerTopContactTitle}</p>
