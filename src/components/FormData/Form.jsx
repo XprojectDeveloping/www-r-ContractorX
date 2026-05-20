@@ -22,6 +22,12 @@ function Form({ form }) {
       return;
     }
 
+   if (name === "email") {
+     const cleaned = value.replace(/[^A-Za-z0-9@\._\-]/g, "").toLowerCase();
+     setGetForm((prev) => ({ ...prev, [name]: cleaned }));
+     return;
+   }
+
     setGetForm((prev) => ({
       ...prev,
       [name]: value,
@@ -41,6 +47,7 @@ function Form({ form }) {
 
     if (getForm.phone.trim().length < 9) {
       alert("Please enter a valid phone number.");
+      return
     }
 
     if (!getForm.name || !getForm.phone || !getForm.email) {
@@ -90,7 +97,7 @@ function Form({ form }) {
             />
 
             <input
-              type="text"
+              type="email"
               name="email"
               placeholder="Email"
               value={getForm.email}
